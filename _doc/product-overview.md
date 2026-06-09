@@ -22,7 +22,7 @@ A production-ready full-stack SaaS starter and admin dashboard scaffold — buil
 The cleanest, most pre-wired full-stack SaaS admin starter. Auth, RBAC, modular routing, admin UI — everything a team would otherwise spend weeks rebuilding — ships on day one, convention-driven and ready to extend.
 
 ## Brand & Tone
-Technical but calm. Modern editorial aesthetic. Minimal, clean, premium. Confident without being loud — solid infrastructure, no noise.
+Technical but calm. Modern editorial aesthetic. Minimal, clean, premium. Confident without being loud — solid infrastructure, no noise. Naming and framing are direct and flat: lead with the product name and what it does, not with punchy slogans or exclamatory value propositions.
 
 ## Core Strategic Principles
 - **Modular by design**: every feature is an injected, self-contained module — not a monolithic blob
