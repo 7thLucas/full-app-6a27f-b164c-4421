@@ -25,15 +25,15 @@ export type TDefaultConfigurableData = {
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "Hello World",
+  appName: "SaaS Admin Base Template",
   logoUrl: "FILL_LOGO_URL_HERE",
   brandColor: {
     primary: "#4f46e5",
     secondary: "#818cf8",
     accent: "#6366f1",
   },
-  heroHeading: "Hello World",
-  heroTagline: "A clean, minimal landing page. Simple, bold, and to the point.",
+  heroHeading: "The Admin Dashboard.",
+  heroTagline: "Full-stack SaaS starter. Auth, RBAC, and admin UI — pre-wired.",
   heroCtaLabel: "Get Started",
   heroCtaUrl: "#",
   heroBgColor: "#ffffff",
