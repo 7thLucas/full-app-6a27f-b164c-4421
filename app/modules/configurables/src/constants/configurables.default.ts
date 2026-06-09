@@ -32,7 +32,7 @@ export const defaultConfigurablesData: TDefaultConfigurableData = {
     secondary: "#818cf8",
     accent: "#6366f1",
   },
-  heroHeading: "The Admin Dashboard.",
+  heroHeading: "The Admin",
   heroTagline: "Full-stack SaaS starter. Auth, RBAC, and admin UI — pre-wired.",
   heroCtaLabel: "Get Started",
   heroCtaUrl: "#",
