@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ukfjpsef-4421-staging
+  namespace: qb-prototypes
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ukfjpsef-4421-staging
+  template:
+    metadata:
+      labels:
+        app: ukfjpsef-4421-staging
+    spec:
+      imagePullSecrets:
+      - name: qtn-dockerhub
+      containers:
+      - name: web
+        image: quantumteknologi/ukfjpsef-4421-staging
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            cpu: "500m"
+            memory: "512Mi"
+          limits:
+            cpu: "2"
+            memory: "2Gi"
+        env:
+        - name: WATCHPACK_POLLING
+          value: "true"

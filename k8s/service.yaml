@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ukfjpsef-4421-staging-svc
+  namespace: qb-prototypes
+spec:
+  selector:
+    app: ukfjpsef-4421-staging
+  ports:
+  - port: 80
+    targetPort: 3000
