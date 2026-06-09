@@ -7,7 +7,7 @@ SaaS Admin Base Template
 A production-ready full-stack SaaS starter and admin dashboard scaffold — built on Remix (Vite plugin), Express (custom server), TypeScript, Tailwind CSS, shadcn/ui, and MongoDB (Mongoose + Typegoose). Ships with RBAC, a modular feature injection system, and a clean admin portal so teams can launch admin-grade products without rebuilding the same plumbing on every project.
 
 ## Current Build State
-- **Landing page**: single-page entry point with a "Hello World" hero section (initial MVP)
+- **Landing page**: single-page entry point with a branded hero section — heading "The Admin", tagline "Full-stack SaaS starter. Auth, RBAC, and admin UI — pre-wired."
 - Full-stack backbone wired: Remix frontend + Express backend + MongoDB persistence
 - Role-Based Access Control (RBAC) via `authGuard` + `permissionGuard`
 - Modular architecture: isolated feature modules under `app/modules/<slug>/`
