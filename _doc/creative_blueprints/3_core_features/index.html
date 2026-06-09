@@ -1,0 +1,68 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+  .mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12 gap-5">
+
+    <!-- Header row -->
+    <div class="flex items-end justify-between gap-4">
+      <div class="flex flex-col gap-1">
+        <div class="flex items-center gap-2">
+          <span class="w-1.5 h-1.5 rounded-full bg-indigo-600"></span>
+          <span class="text-xs font-bold tracking-widest uppercase text-slate-400">Core Features</span>
+        </div>
+        <h2 class="text-3xl font-black text-slate-900 leading-tight">
+          Built for every<br/>role on the team.
+        </h2>
+      </div>
+      <!-- Persona chips -->
+      <div class="flex items-center gap-2 mb-1 shrink-0">
+        <span class="px-3 py-1.5 rounded-full bg-indigo-600 text-white text-xs font-semibold">Developers</span>
+        <span class="px-3 py-1.5 rounded-full bg-slate-100 text-slate-600 text-xs font-semibold">Product Teams</span>
+        <span class="px-3 py-1.5 rounded-full bg-slate-100 text-slate-600 text-xs font-semibold">Agencies</span>
+      </div>
+    </div>
+
+    <!-- Feature cards grid -->
+    <div class="sl-grid grid gap-3 flex-1 content-start">
+
+      <div class="flex flex-col gap-2 p-5 rounded-xl bg-indigo-600">
+        <span class="text-lg">🔐</span>
+        <p class="font-bold text-sm text-white">RBAC & Auth Guards</p>
+        <p class="text-xs text-indigo-200 leading-relaxed">Role-based access with <code class="bg-indigo-700 px-1 rounded text-indigo-100">authGuard</code> + <code class="bg-indigo-700 px-1 rounded text-indigo-100">permissionGuard</code> protecting every route out of the box.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-xl bg-slate-900">
+        <span class="text-lg">🧩</span>
+        <p class="font-bold text-sm text-white">Module Injection System</p>
+        <p class="text-xs text-slate-400 leading-relaxed">Isolated feature modules under <code class="bg-slate-800 px-1 rounded text-slate-300">app/modules/</code> — each with its own API, components, and hooks. Self-contained by convention.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-xl border border-slate-200 bg-white">
+        <span class="text-lg">🖥️</span>
+        <p class="font-bold text-sm text-slate-900">Admin Dashboard Layout</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Sidebar navigation, portal layouts, and composable admin UI primitives — ready to extend with any module.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-xl border border-slate-200 bg-white">
+        <span class="text-lg">⚡</span>
+        <p class="font-bold text-sm text-slate-900">Remix + Vite Routing</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Flat-file frontend routes with Remix, backed by an Express custom server — full control over both rendering and API layers.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-xl border border-slate-200 bg-white">
+        <span class="text-lg">🗄️</span>
+        <p class="font-bold text-sm text-slate-900">MongoDB + Typegoose</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Typed models via Typegoose with a consistent <code class="bg-slate-100 px-1 rounded text-slate-700">api-response.ts</code> format across all controllers — no inconsistency.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-xl bg-slate-100">
+        <span class="text-lg">🎨</span>
+        <p class="font-bold text-sm text-slate-900">Tailwind + shadcn/ui</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Stable shadcn/ui primitives plus Tailwind CSS — a consistent design system across every page, module, and admin view.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
